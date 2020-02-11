@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamico Castro</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/carrosel.css">
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <div>
+                <a href="index.html"><img id="logo" src="_imagens/logo.jpg"></a>
+                <nav id="menu">
+                    <ul>
+                    <li><a href="sobre.html">SOBRE NÓS</a></li>
+                    <li><a href="cursos.html">CURSOS</a></li>
+                    <li><a href="professores.html">PROFESSORES</a></li>
+                    <li><a href="aprovados.html">APROVADOS</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li><a href="estrutura.html">ESTRUTURA</a></li>
+                    <li><a href="contato.html">CONTATO</a></li> 
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <div class="back-top" href="#"></div>
+        <div id="corpo">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="_imagens/slide 1.jpg" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="_imagens/slide 2.jpeg" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="_imagens/slide 3.jpeg" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <br>    
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <table id="tabela-imagens">
+                <tr>
+                    <td><img id="icone1" src="_imagens/cursos.jpg" alt="img-cursos" 
+                        onmouseover="mudaFoto('_imagens/cursos-fundo.jpg','icone1')" 
+                        onmouseout="mudaFoto('_imagens/cursos.jpg','icone1')"/>
+                    </td>
+                    <td><img id="icone2" src="_imagens/calendario.jpg" alt="img-calendario"
+                        onmouseover="mudaFoto('_imagens/calendario-fundo.jpg','icone2')" 
+                        onmouseout="mudaFoto('_imagens/calendario.jpg','icone2')">
+                    </td>
+                    <td><img id="icone3" src="_imagens/contato_1.jpg" alt="img-contato"
+                        onmouseover="mudaFoto('_imagens/contato-fundo.jpg','icone3')" 
+                        onmouseout="mudaFoto('_imagens/contato_1.jpg','icone3')">
+                    </td>
+                    <td><img id="icone4" src="_imagens/MATERIAL.jpg" alt="img-material"
+                        onmouseover="mudaFoto('_imagens/material-fundo.jpg','icone4')" 
+                        onmouseout="mudaFoto('_imagens/MATERIAL.jpg','icone4')">
+                    </td>
+                </tr>
+        </table>
+        </div>
+    </div>
+    <footer id="rodape">
+        <p id="esquerda">Copyright &copy; 2020</p> 
+        <p id="direita">Desenvolvido Por <a href="https://www.facebook.com/guilherme.ortizsantos" 
+            target="_blank">Guilherme Ortiz.</a></p>
+    </footer>
+</body>
+</html>

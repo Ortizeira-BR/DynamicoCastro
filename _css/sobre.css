@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+article#sobreNos h1{
+    font-family: Arial, sans-serif;
+}
+
+section#corpo{
+    display: block;
+    width: 55%;
+    background: #deffff;
+    color: #15ccd6;
+    padding: 23px 70px;
+    float: left;
+}
+
+section#corpo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: black;
+}
+
+aside#lateral{
+    display: block;
+    width: 33%;
+    float: right;
+}
+
+nav#menuLateral{
+    display: block;
+}
+
+nav#menuLateral li{
+    padding: 2px;
+    margin: 2px;
+}
+
+nav#menuLateral a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #15ccd6;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+nav#menuLateral a:hover{
+    color: #11a2aa;
+}
+
+.imgLateral{
+    width: 300px;
+}
