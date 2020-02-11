@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dynamico Castro</title>
+    <title>CONTATO</title>
     <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/cont.css">
 </head>
 <body>
     <div id="interface">
@@ -23,6 +24,44 @@
                 </ul>
             </nav>
         </header>
+        <h1>CONTATO</h1>
+        <aside id="lateral">
+            <fieldset id="inf">
+                <legend>Informações</legend>
+                <h1>TELEFONES</h1>
+                <p>(42)3233-3328<br>(42)9.9831-3111</p>
+                <h1>E-MAIL</h1>
+                <p>dynamicosecretaria@gmail.com</p>
+                <h1>ENDEREÇO</h1>
+                <p>Rua do Rosário, 321.<br>Castro, Paraná, Brasil.</p>
+            </fieldset>
+            <fieldset id="qr">
+                <p>Envie uma mensagem para nosso whatsapp através de um code QR.</p>
+            </fieldset>
+        </aside>
+        <section id="corpo">
+            <form method="POST" id="contato" action="dynamicosecretaria@gmail.com">
+                <p>Nome<br><input type="text" size="100" placeholder="Nome Completo"></p>
+                <p>Email<br><input type="email" size="100" placeholder="ex: nome@hotmail.com"></p>
+                <p>Telefone<br><input type="tel" size="100" placeholder="ex: (41)9.9999-0101"></p>
+                <p>Assunto<br><input type="text" size="100" list="opc"></p>
+                <datalist id="opc">
+                    <option value="Valores"></option>
+                    <option value="Datas"></option>
+                    <option value="Multas"></option>
+                    <option value="Vencimento"></option>
+                    <option value="Outros"></option>
+                </datalist>
+                <p>A sua mensagem<br><textarea name="" id="" cols="102" rows="15"></textarea></p>
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.046173002846!2d-50.00978978550955!3d-24.79387241414032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c29d4e3396c6df%3A0xfebaf87a0633d3fb!2sDynamico%20Castro!5e0!3m2!1spt-BR!2sbr!4v1581449311955!5m2!1spt-BR!2sbr" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
+    <footer id="rodape">
+        <p id="esquerda">Copyright &copy; 2020</p> 
+        <p id="direita">Desenvolvido Por <a href="https://www.facebook.com/guilherme.ortizsantos" 
+            target="_blank">Guilherme Ortiz.</a></p>
+    </footer>
 </body>
 </html>

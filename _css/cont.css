@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+aside#lateral{
+    display: block;
+    width: 33%;
+    float: left;
+}
+
+fieldset{
+    font-size: 18pt;
+    color: #15ccd6;
+}
+
+legend{
+    padding: 0px 20px 0px 20px;
+}
+
+fieldset#qr{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #919191;
+    font-size: 12pt;
+}
+
+aside#lateral fieldset#inf h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6464;
+    font-size: 13pt;
+    margin-left: 15px;
+}
+
+aside#lateral fieldset#inf p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #918989;
+    font-size: 12pt;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+section#corpo{
+    display: block;
+    width: 55%;
+    margin: -30px 130px 10px auto;
+    float: right;
+}
+
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494545;
+}
+
+input{
+    color: white;
+    height: 30px;
+}
+
+input#enviar{
+    margin: 3px;
+    color: white;
+    background-color: #15ccd6;
+    height: 40px;
+    width: 80px;
+}
