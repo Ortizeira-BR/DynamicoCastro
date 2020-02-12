@@ -2,6 +2,7 @@
 
 header#cabecalho{
     height: 100px;
+    margin: 20px;
 }
 
 img#logo {
@@ -51,7 +52,11 @@ div#corpo{
 }
 
 table#tabela-imagens{
+    display: block;
+    position: relative;
     margin: auto;
+    padding: auto;
+    left: 8%;
 }
 
 table#tabela-imagens img{
@@ -89,6 +94,7 @@ table#tabela-imagens img{
 }
 
 footer#rodape{
+    position: relative;
     clear: both;
     background-color: #303133;
     height: 75px;
