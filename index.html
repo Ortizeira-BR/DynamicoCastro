@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dynamico Castro</title>
     <link rel="stylesheet" href="_css/estilo.css">
-    <link rel="stylesheet" href="_css/carrosel.css">
 </head>
 <script src="_javascript/funcoes.js"></script>
 <body>
+    <header id="listra"></header>
     <div id="interface">
         <header id="cabecalho">
             <div>
@@ -29,47 +29,24 @@
         </header>
         <div class="back-top" href="#"></div>
         <div id="corpo">
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                  <img src="_imagens/slide 1.jpg" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <img src="_imagens/slide 2.jpeg" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <img src="_imagens/slide 3.jpeg" style="width:100%">
-                </div>
-                
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-            </div>
-            <br>    
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
+            <div id="capa"></div>
             <table id="tabela-imagens">
                 <tr>
-                    <td><img id="icone1" src="_imagens/cursos.jpg" alt="img-cursos" 
+                    <td><a href="cursos.html"><img id="icone1" src="_imagens/cursos.jpg" alt="img-cursos" 
                         onmouseover="mudaFoto('_imagens/cursos-fundo.jpg','icone1')" 
-                        onmouseout="mudaFoto('_imagens/cursos.jpg','icone1')"/>
+                        onmouseout="mudaFoto('_imagens/cursos.jpg','icone1')"/></a>
                     </td>
-                    <td><img id="icone2" src="_imagens/calendario.jpg" alt="img-calendario"
+                    <td><a href="calendario.html"><img id="icone2" src="_imagens/calendario.jpg" alt="img-calendario"
                         onmouseover="mudaFoto('_imagens/calendario-fundo.jpg','icone2')" 
-                        onmouseout="mudaFoto('_imagens/calendario.jpg','icone2')">
+                        onmouseout="mudaFoto('_imagens/calendario.jpg','icone2')"></a>
                     </td>
-                    <td><img id="icone3" src="_imagens/contato_1.jpg" alt="img-contato"
+                    <td><a href="contato.html"><img id="icone3" src="_imagens/contato_1.jpg" alt="img-contato"
                         onmouseover="mudaFoto('_imagens/contato-fundo.jpg','icone3')" 
-                        onmouseout="mudaFoto('_imagens/contato_1.jpg','icone3')">
+                        onmouseout="mudaFoto('_imagens/contato_1.jpg','icone3')"></a>
                     </td>
-                    <td><img id="icone4" src="_imagens/MATERIAL.jpg" alt="img-material"
+                    <td><a href="editora.html"><img id="icone4" src="_imagens/MATERIAL.jpg" alt="img-material"
                         onmouseover="mudaFoto('_imagens/material-fundo.jpg','icone4')" 
-                        onmouseout="mudaFoto('_imagens/MATERIAL.jpg','icone4')">
+                        onmouseout="mudaFoto('_imagens/MATERIAL.jpg','icone4')"></a>
                     </td>
                 </tr>
         </table>
