@@ -4,6 +4,10 @@ div#go{
     text-align: center;
 }
 
+p{
+    color: white;
+}
+
 figure.foto-legenda{
     width: 600px;
     position: relative;

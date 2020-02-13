@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 div#capa{
     height: 400px;
     background: url("../_imagens/estrutura.jpg") fixed no-repeat;

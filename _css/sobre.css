@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-article#sobreNos h1{
-    font-family: Arial, sans-serif;
-}
-
 section#corpo{
     display: block;
     width: 55%;
     background: #deffff;
-    color: #15ccd6;
     padding: 23px 70px;
     float: left;
+}
+
+p{
+    color: #15ccd6;
 }
 
 section#corpo h2{

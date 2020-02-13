@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-}
 
 aside#lateral{
     display: block;
@@ -22,20 +18,17 @@ legend{
 
 fieldset#qr{
     margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #919191;
     font-size: 12pt;
 }
 
 aside#lateral fieldset#inf h1{
-    font-family: Arial, Helvetica, sans-serif;
     color: #6b6464;
     font-size: 13pt;
     margin-left: 15px;
 }
 
 aside#lateral fieldset#inf p{
-    font-family: Arial, Helvetica, sans-serif;
     color: #918989;
     font-size: 12pt;
     margin-left: 15px;
@@ -50,7 +43,6 @@ section#corpo{
 }
 
 section p{
-    font-family: Arial, Helvetica, sans-serif;
     color: #494545;
 }
 
